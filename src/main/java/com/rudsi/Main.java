@@ -9,9 +9,9 @@ import com.rudsi.utils.HashPassword;
 
 public class Main {
 
-    private static final String URL = "jdbc:postgresql://localhost:5432/management";
-    private static final String USER = "postgres";
-    private static final String PASSWORD = "rudsi123###";
+    private static final String URL = DB_URL;
+    private static final String USER = DB_USER;
+    private static final String PASSWORD = DB_PASSWORD;
 
     public static Connection getConnection() throws SQLException {
         try {
